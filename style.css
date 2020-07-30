@@ -25,7 +25,7 @@ font-size: 12px;
 
 .osoba {
   border: 2px solid rgb(202, 201, 201);
-  border-radius: 8%;
+  border-radius: 5%;
   width: 280px;  
   margin: 1%;
   
@@ -83,11 +83,16 @@ body {
     flex-wrap: wrap;
   }
 
-  .osoba {
-    
+  .osoba {    
     width: 15%;
+    min-width: 200px;
+    max-width: 600px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    text-align: center;
+    flex-wrap: nowrap;
   }
+
+
 
 }
