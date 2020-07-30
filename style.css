@@ -9,4 +9,17 @@ body {
 
 /* ---------------------------------------------------- */
 
+.osoba {
+  border: 2px solid rgb(202, 201, 201);
+  border-radius: 10%;
+}
 
+img {
+  border-radius: 50%;
+}
+
+.tym {
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+}
